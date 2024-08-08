@@ -1,0 +1,198 @@
+body{
+    background-image:url("download.jpg");
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(185, 92, 92); /* Fallback color */
+    background-color: rgba(214, 185, 185, 0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #9b9b9b;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close,.close2,.close3,.close4,.close5,.close6{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,.close2:hover,.close3:hover,.close4:focus,.close5:focus,.close6:focus,
+  .close2:focus,.close3:focus,
+  .close:focus,.close4:hover,.close5:hover,.close6:hover{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+/* Add this CSS rule for the button styling */
+.mone {
+    background-color: #cecece;
+    border: none;
+    position: relative;
+    width: 7cm;
+    height: 4cm;
+    border-radius: 15px; /* Adjust the value for the desired level of curvature */
+    margin-top:2cm;
+    /* Adjust the margin for separation from the window */
+    transition: background-color 0.2s;
+}
+
+.mone:hover {
+    background-color: #000; /* Black hovering color */
+}
+
+
+.mtwo {
+    background-color: #ff854c;
+    border: none;
+    position:relative;
+    width: 7cm;
+    height: 8cm;
+    border-radius: 15px; /* Adjust the value for the desired level of curvature */
+    margin-top: 10px; /* Adjust the margin for separation from the window */
+    transition: background-color 0.2s;
+}
+
+.mtwo:hover {
+    background-color: #000; /* Black hovering color */
+}
+
+
+
+.mthree {
+    background-color: #ffafaf;
+    border: none;
+    position:relative;
+    width: 7cm;
+    height: 8cm;
+    border-radius: 15px; /* Adjust the value for the desired level of curvature */
+    margin-top: 10px; /* Adjust the margin for separation from the window */
+    transition: background-color 0.2s;
+}
+
+.mthree:hover {
+    background-color: #ffffff; /* Black hovering color */
+}
+
+
+
+.mfour {
+    background-color: #ff4d4d;
+    border: none;
+    position:relative;
+    width: 7cm;
+    height: 4cm;
+    border-radius: 15px; /* Adjust the value for the desired level of curvature */
+    margin-top: 10px; /* Adjust the margin for separation from the window */
+    transition: background-color 0.2s;
+}
+
+.mfour:hover {
+    background-color: #000; /* Black hovering color */
+}
+
+
+
+.mfive {
+    background-color: #734cff;
+    border: none;
+    position:relative;
+    width: 7cm;
+    height: 7cm;
+    border-radius: 15px; /* Adjust the value for the desired level of curvature */
+    margin-top: 10px; /* Adjust the margin for separation from the window */
+    transition: background-color 0.2s;
+}
+
+.mfive:hover {
+    background-color: #ffffff; /* Black hovering color */
+}
+
+
+
+.msix {
+    background-color: #64f8f1;
+    border: none;
+    position:relative;
+    width: 7cm;
+    height: 10.3cm;
+    border-radius: 15px; /* Adjust the value for the desired level of curvature */
+    margin-top: 10px; /* Adjust the margin for separation from the window */
+    transition: background-color 0.2s;
+}
+
+.msix:hover {
+    background-color: #000; /* Black hovering color */
+}
+
+
+
+.circle-image {
+    width: 3cm; /* Twice the radius for width and height to create a circular shape */
+    height: 3cm;
+    background-image: url('img1.jpg'); /* Set the URL for your circular image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%; /* Creates a circular shape */
+    position: absolute;
+    top: 10px; /* Adjust the positioning as needed to touch the button */
+    align-content: center;
+    z-index: 1; /* Ensure it's above other elements */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjust the space between buttons */
+    align-items: center;
+    margin: 35px;
+    
+}
+
+.m1{
+    display: flex;
+    flex-direction: row;
+    width:fit-content;
+    align-items: center;
+    
+}
+/* ... Your existing CSS ... */
+
+/* Media query for mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .mone,.mtwo,.mthree,.mfour,.mfive,.msix{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .m1{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        align-items: center;
+    }
+    }
+    
+
+
+
+
+
+
+
+/* Additional CSS rules for the modal and button as needed */
